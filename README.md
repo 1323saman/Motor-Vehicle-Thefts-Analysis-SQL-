@@ -2,43 +2,32 @@
 
 Stolen_Vehicles_Data_Analysis
 
-Table of Contents
-
-Project Overview
-Tools
-Data Sources
-Functions Used
-Data Analysis
 Project Overview
 This project focuses on analyzing stolen vehicles data using SQL. The goal is to gain insights into the patterns and characteristics of stolen vehicles by employing SQL queries for data manipulation and analysis.
 
 Tools
-
 MySQL
 Data Sources
-
 The primary data source for this project is the MySQL database containing information about stolen vehicles. The database schema includes tables for vehicle details, locations, and vehicle makes.
 
 Functions Used
-
 The project utilizes various SQL functions for data analysis, including:
-
 Joins
 Subqueries
 Aggregation Functions
 Filtering and Sorting
+
 Data Analysis
 Key data analysis tasks performed on the stolen vehicles dataset include:
 
 Identifying Most Stolen Vehicle Makes:
-
 Using aggregate functions to determine the vehicle makes with the highest number of thefts.
+
 Regional Analysis:
-
 Analyzing theft patterns based on regions using joins with location data.
+
 Oldest Stolen Vehicles:
-
 Retrieving information about the oldest stolen vehicles based on the model year.
-Make Details and Thefts:
 
+Make Details and Thefts:
 Examining the relationship between vehicle makes and thefts using subqueries.
